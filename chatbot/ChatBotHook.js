@@ -4,6 +4,8 @@ const axios = require('axios');
 const stringSimilarity = require('string-similarity');
 const LanguageDetect = require('languagedetect');
 const lngDetector = new LanguageDetect();
+
+//@TODO: Add these variables to globals.js & env
 const {
 	CHAT_API_SEND_MESSAGE,
 	CHAT_API_TYPING,
